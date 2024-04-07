@@ -6,12 +6,12 @@
 {% for category in include.categories %}
 	{% if first %}
 		<h5 style="margin-top: 0; margin-bottom: 0; display: inline-block; padding-left: {{ lpad }}px">
-			<span>Categories: </span><a href="/articles/categories/{{ category }}">{{ category }}</a>
+			<span>Categories: </span><a href="{{ site.baseurl }}/articles/categories/{{ category }}">{{ category }}</a>
 		</h5>
 		{% assign first = false %}
 	{% else %}
 		<h5 style="margin-left: -2px; margin-top: 0; margin-bottom: 0; display: inline-block; padding-left: 0px">
-			<span>&& </span><a href="/articles/categories/{{ category }}">{{ category }}</a>
+			<span>&& </span><a href="{{ site.baseurl }}/articles/categories/{{ category }}">{{ category }}</a>
 		</h5>
 	{% endif %}
 {% endfor %}
@@ -27,7 +27,7 @@
 {% endfor %}
 
 {% if authorExists == true %}
-	<h5 style="margin-top: 0; margin-bottom: 0; padding-left: {{ lpad }}px;">by <a href="/members/{{ include.author }}">{{ include.author }}</a></h2>
+	<h5 style="margin-top: 0; margin-bottom: 0; padding-left: {{ lpad }}px;">by <a href="{{ site.baseurl }}/members/{{ include.author }}">{{ include.author }}</a></h2>
 {% else %}
 	<h5 style="margin-top: 0; margin-bottom: 0; padding-left: {{ lpad }}px;">by {{ include.author }}</a></h2>
 {% endif %}
