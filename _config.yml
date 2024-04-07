@@ -1,5 +1,8 @@
-title: Your Website Title Here
-description: Your Website Description Here
+title: EZSD
+description: EZ Software Development
+
+website: https://ezubiria.github.io
+basewebsite: /ezsd
 
 permalink: /articles/categories/:categories/:year-:month-:day/:title
 paginate: 10

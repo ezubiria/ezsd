@@ -1,18 +1,18 @@
 ---
-title: Some Title Here
+title: EZSD
 layout: index
 ---
 
-# Some Other Title Here
+# Hi there!
 
-<pre id="asciiart">
-  ________  ______                             __                     
- / ___/ _ \/_  __/_____ _  ___  ___  ___  ____/ /  _______  __ _  ___ 
-/ /__/ , _/ / / /___/  ' \/ _ \/ _ \/ _ \/ __/ _ \/ __/ _ \/  ' \/ -_)
-\___/_/|_| /_/     /_/_/_/\___/_//_/\___/\__/_//_/_/  \___/_/_/_/\__/ 
-                                                                      
-</pre>
+![Image](/assets/img/ni.png){: style="float: right"}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel elementum eros. Aenean a leo ut nisl blandit euismod. Cras in mi orci. Nulla tellus mi, suscipit a orci et, iaculis aliquam erat. Vestibulum eget lacinia dolor. Aliquam quis volutpat mauris. Nam eleifend ornare enim eu ultricies. Integer porttitor efficitur metus, at posuere turpis. Aenean tincidunt facilisis metus, vel sodales odio fermentum non. Nunc justo purus, tempor at ex et, sodales posuere lectus. Cras pulvinar libero at erat feugiat fringilla. Morbi ut molestie quam. Maecenas id lacus mi.
+I’m Erik Zubiria, a Spanish full stack videogame developer who lives in the center of the Netherlands, in Utrecht. And why in Utrecht? Because my girlfriend was unemployed in Spain and she decided to study a Master degree abroad, so we moved here and...
 
-Phasellus dictum, dui non convallis posuere, libero nisi semper mauris, ac vehicula orci velit auctor nulla. Suspendisse potenti. Ut bibendum convallis massa quis auctor. Morbi vitae laoreet lectus. Duis sit amet ullamcorper lectus. Vestibulum imperdiet elit ac magna auctor, quis tincidunt ante auctor. Nullam tempus mi at ipsum convallis, vel viverra urna accumsan. Suspendisse sed ex arcu. Nunc condimentum lectus in sem vehicula, a ultrices felis rhoncus. Aliquam molestie elementum leo non pharetra. Duis quis blandit lectus. Suspendisse velit est, hendrerit in dapibus sed, hendrerit a sapien. Integer hendrerit est non tortor pellentesque tempor.
+Mmm I’m beating around the bushes here… Let’s talk about my work, this page is about that.
+I started using Unity 8 years ago. On September 2020 I published BATU ta BATU my first game for consoles and PC. The whole game was developed and designed by me.
+
+After some demos my current project is the development of a classic Point & Click adventure game.
+
+I also can create some art occasionally. I can even make music!
+

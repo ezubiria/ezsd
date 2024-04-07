@@ -3,14 +3,14 @@ var prefsDiv = null;
 function settings() {
 	if (prefsDiv == null) {
 		prefsDiv = document.createElement("div");
-		
-		var prefsHeader = document.createElement("h1");
-		prefsHeader.innerHTML = "Settings";
+		prefsDiv.classList.add('options');
+		//var prefsHeader = document.createElement("h1");
+		//prefsHeader.innerHTML = "Settings";
 		
 		toggleFlickerBtn = makeButton("Toggle Flicker Effect", "toggleFlicker()");
 		changeColorBtn = makeButton("Change Page Color", "cycleColor()");
 		
-		prefsDiv.appendChild(prefsHeader);
+		//prefsDiv.appendChild(prefsHeader);
 		prefsDiv.appendChild(toggleFlickerBtn);
 		prefsDiv.appendChild(changeColorBtn);
 		
@@ -28,7 +28,7 @@ function makeButton(text, event) {
 	var btnp = document.createElement("p");
 	var btn = document.createElement("a");
 	btn.innerHTML = text;
-	btn.style = "font-size: 28px";
+	btn.style = "font-size: 12px";
 	btn.href = "javascript:" + event;
 	btnp.appendChild(btn);
 	return btnp;

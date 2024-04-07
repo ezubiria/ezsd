@@ -6,27 +6,10 @@
 <body>
 
 	{% include header.html %}
-
-	<div id="main">
-
-		{{ content }}
-
-		{% for post in site.posts %}
-
-			{% if post.categories contains "announcements" %}
-
-				<h1>{{ post.title }}</h1>
-				{% include postmeta.html categories=post.categories date=post.date author=post.author push=false %}
-				{{ post.content }}
-
-				{% break %}
-
-			{% endif %}
-
-		{% endfor %}
-
-	</div>
-
+		<div id="main" class="hi-there">
+			{{ content }}
+		</div>
+	
 </body>
 
 </html>

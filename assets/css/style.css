@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Share Tech Mono";
-	src: url("/assets/fonts/ShareTechMono-Regular.ttf");
+	font-family: "IBM CGA";
+	src: url("/assets/fonts/Web437_IBM_VGA_9x8.woff");
 }
 
 :root {
@@ -21,11 +21,12 @@ html {
 }
 
 body {
-	font-family: "Share Tech Mono", monospace;
-	font-size: 18px;
+	font-family: "IBM CGA", monospace;
+	font-size: 16px;
 	margin: 5% 15% 5% 15%;
 	text-align: justify;
-	text-shadow: 0px 0px 3px var(--fx-color-primary);
+	text-shadow: 0px 0px 1px var(--fx-color-primary);
+	line-height: 1.3em;
 }
 
 body::before {
@@ -56,6 +57,28 @@ body::after {
 	z-index: 2;
 	pointer-events: none;
 	animation: var(--page-animation);
+}
+
+h1 {
+    display: block;
+    font-size: 18px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 #main > p > img {
@@ -154,9 +177,9 @@ a:hover {
 
 #header a {
 	color: var(--fg-color-bold);
-	font-family: "Share Tech Mono", monospace;
-	font-size: 32px;
-	padding: 8px 12px 4px 12px;
+	font-family: "IBM CGA", monospace;
+	font-size: 20px;
+	padding: 8px 40px 4px 40px;
 	text-decoration: none;
 	transition: 250ms linear;
 }
@@ -316,4 +339,33 @@ a:hover {
 	100% {
 		opacity: 0.24387;
 	}
+}
+
+hr{
+	border-color: var(--fg-color-bold);
+}
+
+.hi-there img{
+	float: right;
+	width:170px;
+	height:170px;
+	margin:0 0 10px 20px;
+}
+
+.hi-there-text{
+	float: left;
+}
+
+.options{
+	position: absolute;
+    right: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #333;
+    padding: 0 17px;
+    border-radius: 10px;
+}
+
+.menu{
+	display: flex; 
+	flex-wrap: wrap;
 }
