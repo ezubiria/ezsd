@@ -14,7 +14,7 @@ As a videogame fan since I was a kid in the early ’90s, I always wanted to be 
 
 ***
 
-### Batutabatu
+### Batu ta Batu
 My biggest videogame project so far, the main issue was to motivate myself from time to time to stay focused and finish it. It wasn’t easy sometimes, especially in mid development months.
 
 Polishing the gameplay was also a big challenge. As a puzzle, the balance between difficulty and accessibility was crucial, so it took me a while to achieve this.
