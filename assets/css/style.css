@@ -184,6 +184,10 @@ a:hover {
 	transition: 250ms linear;
 }
 
+#header a:first-child {
+	padding: 8px 40px 4px 20px;
+}
+
 #header a:visited {
 	color: var(--fg-color-bold);
 	text-decoration: none;
