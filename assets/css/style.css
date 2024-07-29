@@ -22,7 +22,7 @@ html {
 
 body {
 	font-family: "IBM CGA", monospace;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 5% 15% 5% 15%;
 	text-align: justify;
 	text-shadow: 0px 0px 1px var(--fx-color-primary);
